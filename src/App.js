@@ -4,7 +4,6 @@ import Users from './components/Users'
 import './App.css';
 
 class App extends Component {
-
   render() 
   {
       return (
@@ -14,7 +13,7 @@ class App extends Component {
           <Users />
         </div>
       );
-}
+  }
 }
 
 export default App;

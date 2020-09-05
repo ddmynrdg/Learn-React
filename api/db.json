@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+        "id":"1", 
+        "name": "Ali",
+        "salary": "5000",
+        "department": "ARGE"
+        },
+        {
+        "id": "2", 
+        "name": "Veli",
+        "salary": "4000",
+        "department": "pazarlama"
+        },
+        {
+        "id": "3", 
+        "name": "Ezgi",
+        "salary": "6000",
+        "department": "satış"}
+    ]
+}

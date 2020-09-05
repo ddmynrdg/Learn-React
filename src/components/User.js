@@ -19,11 +19,12 @@ export default class User extends Component{
     onDeleteUser = (dispatch, e) => {
         const {id} = this.props
         // Consumer Dispatch
-        dispatch({
-            type: "DELETE_USER",
-            payload: id
-        })
+        dispatch({ type: "DELETE_USER", payload: id })
     }
+    componentWillUnmount = () => {
+      console.log("componentWillUnmount")
+    }
+    
     render () { 
         const {name, department, salary} = this.props
         const { isVisible } = this.state
